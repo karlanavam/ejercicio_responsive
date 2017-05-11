@@ -1,0 +1,53 @@
+body {
+    background-color: azure;
+}
+
+
+@media (max-width: 320px) and (orientation: landscape) {
+    body {
+        background-color: lightpink;
+    }    
+}
+
+@media (min-width 480px) and (orientation: landscape) {
+    body {
+        background-color: hotpink;
+    }    
+}
+
+
+@media (min-width:786px) and (orientation: landscape) {
+    body {
+        background-color: deeppink;
+    }    
+}
+
+@media (min-width:1024px) and (orientation: landscape) {
+    body {
+        background-color: mediumvioletred;
+    }    
+}
+
+
+@media (min-width:1200px) and (orientation: landscape) {
+    body {
+        background-color: purple;
+    }    
+}
+
+#img {
+    width: 100%;
+}
+
+section {
+    flexbo
+    text-align: center;
+}
+
+p{
+    position: absolute;
+    font-size: 2em;
+    text-align: center;
+    color: deeppink;
+    padding-top: 100px;
+}
